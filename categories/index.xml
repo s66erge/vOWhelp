@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on theagile.company</title>
-    <link>https://s66erge.github.io/categories/</link>
+    <link>https://s66erge.github.io/theagilecompany/categories/</link>
     <description>Recent content in Categories on theagile.company</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://s66erge.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://s66erge.github.io/theagilecompany/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>foundation</title>
-      <link>https://s66erge.github.io/categories/foundation/</link>
+      <link>https://s66erge.github.io/theagilecompany/categories/foundation/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://s66erge.github.io/categories/foundation/</guid>
+      <guid>https://s66erge.github.io/theagilecompany/categories/foundation/</guid>
       <description></description>
     </item>
     
