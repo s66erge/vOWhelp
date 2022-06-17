@@ -1,0 +1,122 @@
+/* extends the maximum length for all selectors */
+#content{max-width:1500px;}
+p       {max-width:1000px;}
+li      {max-width:1000px;}
+table   {max-width:1000px;}
+summary {max-width:1000px;}
+details {max-width:1000px;}
+
+/* do not cut in the middle during wkhtmltopdf pagination*/
+h1, h2, h3, h4, h5, h6, p, li, ul, ol{page-break-inside: avoid;}
+
+/* increases header sizes*/
+h2{
+    font-size:170%;
+}
+
+h3{
+    font-size:150%;
+}
+
+h4{
+    font-size:125%;
+}
+
+h5{
+    font-size:100%;
+}
+
+h6{
+    font-size:100%;
+}
+
+/* restore font size in tables */
+table td,table th{font-size:100%;}
+
+/* suppress paragraph margin when followded by a first list element */
+p+ul, p+ol{margin-top:-24px;}
+
+/* suppress bottom margin for a list within another list */
+li>ul{margin-bottom:0px;}
+
+/* details and summary styles */
+details {
+    border-radius: 3px;
+    background:lightcyan;
+}
+
+details summary {
+    border-radius: 3px;
+    padding: 5px 10px;
+    background: darkblue;
+    color: white;
+}
+
+details[open] summary {
+    background:royalblue;
+    color: white;
+}
+
+/* redList/blkList classes applied to ul list create a numbered big red/black bullet  */
+  /* use a counter and delete the default bullet*/
+  div.redList>ul, div.blkList>ul {
+    list-style: none; 
+    counter-reset:item;
+    padding-left:20px; 
+  }
+  div.redList>ul>li, div.blkList>ul>li{
+    counter-increment:item; 
+    margin-bottom:20px;
+    position:relative; 
+  }
+  /* create and position the big bullet */
+  div.redList>ul>li::before, div.blkList>ul>li::before{
+    position:absolute; 
+    width:32px; 
+    height:32px; 
+    left:-44px; 
+    top: 0;
+    line-height: 32px; 
+    text-align:center; 
+    border-radius:50%; 
+    content: counter(item); 
+    justify-content: center; 
+    font-size:20px; 
+    color:white; 
+  }
+  /* apply the color to the bullet background */
+  div.redList>ul>li::before{
+    background-color:red; 
+  }
+  div.blkList>ul>li::before{
+    background-color:black; 
+  }
+
+/* redTable/blkTable classes applied to a table create a numbered big red/black bullet in first column */
+  /* use a counter */
+  div.redTable tbody, div.blkTable tbody{
+    counter-reset:item;
+  }
+  div.redTable tbody tr, div.blkTable tbody tr {
+    counter-increment:item; 
+  }
+  /* create and position the big bullet */
+  div.redTable tbody tr td:first-child::before, div.blkTable tbody tr td:first-child::before{
+    display:inline-flex; 
+    width:32px; 
+    height:32px;
+    align-items:center; 
+    border-radius:50%; 
+    content: counter(item);
+    justify-content: center; 
+    font-size:20px; 
+    color:white; 
+  }
+  /* apply the color to the bullet background */
+  div.redTable tbody tr td:first-child::before{
+    background-color:red; 
+  }
+  div.blkTable tbody tr td:first-child::before{
+    background-color:black; 
+  }
+

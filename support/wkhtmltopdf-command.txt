@@ -1,0 +1,7 @@
+read html online:
+
+wkhtmltopdf  --footer-center "2021-06-19 19:57" --footer-spacing 3 --footer-font-size 10 --footer-right "[page]" --footer-left "[webpage]" toc --toc-level-indentation 2em --toc-text-size-shrink 0.9 --toc-header-text "virtual OW platform help for trainers" https://vowhelp.authentica.eu --enable-toc-back-links F:\OneDrive\Development\ORG-files\vOWhelp\support\vowhelp.pdf
+
+from local html file:
+
+wkhtmltopdf  --footer-center "2021-09-21 18:15" --javascript-delay 600 --enable-local-file-access --allow F:\OneDrive\Development\ORG-files\vOWhelp --footer-spacing 3 --footer-font-size 10 --footer-right "[page]" --footer-left "https://vowhelp.authentica.eu" toc --toc-level-indentation 2em --toc-text-size-shrink 0.9 --toc-header-text "virtual OW platform help for trainers" F:\OneDrive\Development\ORG-files\vOWhelp\index.html --enable-toc-back-links F:\OneDrive\Development\ORG-files\vOWhelp\support\vowhelp.pdf
