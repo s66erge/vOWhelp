@@ -113,7 +113,7 @@ To anticipate this risk, conduct these tests/conversations BEFORE committing to 
 
 The support team has the same requirements as participants, with Zoom installed on their computer. Support team members must also have a Google account, either:
 - an account in their corporate Google Workspace
-- a personal Google account: /something/@gmail.com  
+- a personal Google account: /something/@gmail.com
 
 If their corporate account has restrictions and/or they do not want to use their Google account to manage virtual OWs, members of the support team can create another Google account just to manage virtual OWs: goto [[https://account.google.com/][account.google.com]] 
 
@@ -154,9 +154,9 @@ The key other design differences between the official OW Leader’s Guide from p
 - "Bottom shoes" are replaced with the freedom to move between virtual rooms. At the start of the 5 days, Bottoms are moved into their respective team work room and they cannot move. But customers, Tops and Middles can move freely between virtual rooms. From the second day onwards, Tops can decide to use some of CCI money to pay the Government to buy movement freedom for one (or more) Bottom(s).
 - The “Side Show / Centre Ring” image is replaced by “Sidetracked / Centered”
 - The strategic frameworks are delivered in a slightly different order to allow to give participants homework between modeles 2 and 3 to check the fit of their reality with "Sidetracked" and "How Come It Goes The Way It Usually Goes"
-  - Module 2 delivers the following strategic frameworks after TOOT #1:   
-     - Sidetracked (Side Show) [but not yet Centered (Center Ring)]       
-     - How Come It Goes The Way It Usually Goes			        
+  - Module 2 delivers the following strategic frameworks after TOOT #1:
+     - Sidetracked (Side Show) [but not yet Centered (Center Ring)]
+     - How Come It Goes The Way It Usually Goes
   - Module 3 starts off from these strategic frameworks and asks participants to apply them beginning on day 3 of the experiential exercise:
      - Centered (Center Ring)
      - What Else Is Possible
@@ -474,6 +474,9 @@ If you want to share link(s) so that all participants can access instructions / 
   - prepare your own link(s) and one line access instruction for each link
   - in your file [[#workshop-files]["My Workshop - ..."]] tab "ExeciseTimer", put the access instruction in column F and the link in column G, so that you can show them rapidly to participnats by copying them on the lest part of the sheet, shared with participants worksheet tab "ExerciseTimer".
 
+Whenever you create/change any link, *Select MENU:"Refresh participants screens (including timer links)."* in the [[#next-trainer-action][Next trainer action menu]] to update all participants screens.
+
+
 * Virtual OW module delivery
   :PROPERTIES:
   :CUSTOM_ID: deliver-workshop
@@ -535,6 +538,8 @@ If this is not the case, refresh again and wait this is OK before showing the ro
 *** Step D - When step C is done AND paxs know how to change their names in Zoom: show roles
 S-Rol shows to participants their role by taking over screen sharing to show the tab Participants in any customer worksheet. Participants put then their OW role in front of their screen name following the instructions they just received from the Presenter.
 
+Host *Select MENU:"Refresh participants screens (including timer links)."* in the [[#next-trainer-action][Next trainer action menu]] to initialize all participants screens.
+
 *** Steps E (3 times) - After all paxs have put their role in Zoom name: distribute links
 S-Cus, S-Rol and the Host begin [[#link-distribution][link distribution]], as indicated in the task plan.\\
 S-Rol can then make adjustments to *PRESENT PAXS* to reflect drop-outs and very late comers, as indicated in [[#drop-outs][this section]]. They will be immediately visible to all participants in the Participants tab of their Worksheet.
@@ -569,7 +574,7 @@ To see a shared timer across all virtual rooms, participants use the link on top
 - */IMPORTANT: NEVER CLOSE your CLOQ browser tab!/* (text in tab: Shared Timer for Remote Teams)
 - return to "My Workshop ..." - ExerciseTimer. 
 - paste the link for participants in cell D3
-- run the orange menu "Refresh participants links..."
+- *Select MENU:"Refresh participants screens (including timer links)."* in the [[#next-trainer-action][Next trainer action menu]] update all links.
 
 *Explain to ALL participants how to access the timer:*
 - go to the CLOQ browser tab (text in tab: Shared Timer for Remote Teams)
@@ -603,11 +608,10 @@ To access shared link(s) across all virtual rooms , participants use the link(s)
 
 To make a [[#optional-changes][prepared link]] accessible by all participants, the Host uses the tab "ExeciseTimer" on the file [[#workshop-files]["My Workshop - ..."]] :
 - copy/paste the prepared access instruction from column F to column C
-- copy/paste the prepared link from column G to column D  
-- use the menu link on top left to *Select MENU:"Refresh participants links, including timer."*
+- copy/paste the prepared link from column G to column D
 
 #+begin_caution
-Everytime you copy/change/delete a link (including the timer link) in the part of "ExeciseTimer" visible by participants (within the thick white borders), you must use the menu link on top left to *Select MENU:"Refresh participants links, including timer."* to ensure that this change becomes visible by all participants ! 
+Everytime you copy/change/delete a link (including the timer link) in the part of "ExeciseTimer" visible by participants (within the thick white borders), you must *Select MENU:"Refresh participants screens (including timer links)."* in the [[#next-trainer-action][Next trainer action menu]] to update all participants screens with links.
 #+end_caution
 
 ** How to deal with latecomers/drop outs?
@@ -647,11 +651,15 @@ To share final financial results, open the "financesCCI" worksheet (use the link
 
 The "Next trainer action" menu opens by clicking the link under/right of the orange cell 'menu' in  [[#workshop-files]["My Workshop - ..."]], tab Participants or ExerciseTimer. 
 
-[[./images/next-action-menu.png]]
+[[./images/next-action-menu-2.png]]
 
 #+begin_redList
-- *Refresh participants links, including timer.*\\
-  Everytime you copy/change/delete a link, including the timer link, in the part of "ExeciseTimer" visible by participants (within the thick white borders), you must submit this action to ensure that this change becomes visible by all participants. 
+- *Refresh participants screens (including timer links).*\\
+  Eveytime you execute an action which changes any part of participants screens, you must execute this action to ensure that this change becomes visible by all participants. These actions are :
+  - showing the roles to participants to ensure that all participants screens are initialized at the start of a workshop / module
+  - copy/change/delete any link, including the timer link in the part of "ExeciseTimer" visible by participants (within the thick white borders)
+  - reset all transactions to zero.
+
 - *Finalize configuration before start of day 1.*\\
  See [[#role-allocation][step C of role allocation]]
 - *Update Master Data configuration.*\\
